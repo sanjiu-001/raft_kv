@@ -1,0 +1,45 @@
+﻿# 编译生成文件
+build/
+bin/
+*.o
+*.obj
+*.exe
+*.out
+*.a
+*.so
+*.dll
+
+# IDE相关
+.vscode/
+.vs/
+.idea/
+*.swp
+*.swo
+*~
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# 系统文件
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 日志文件
+*.log
+logs/
+
+# 临时文件
+*.tmp
+temp/
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# 数据库文件
+*.db
+*.sqlite
